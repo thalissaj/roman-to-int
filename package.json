@@ -1,6 +1,6 @@
 {
   "name": "thali-romans",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "lib to convert romans numbers in arabic numbers",
   "main": "index.js",
   "directories": {
