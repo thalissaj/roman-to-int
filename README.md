@@ -3,8 +3,8 @@ Biblioteca js para transformar numeros romanos em inteiros, e vice-versa.
 
 ## Os métodos esperados são:
 
-** romanToInt() **
-** intToRoman() **
+#### romanToInt()
+#### intToRoman()
 
 Exemplos de uso:
 
