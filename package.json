@@ -1,0 +1,30 @@
+{
+  "name": "roman-to-int",
+  "version": "1.0.0",
+  "description": "lib to convert romans numbers in arabic numbers",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "romanToInt()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thalissaj/roman-to-int.git"
+  },
+  "keywords": [
+    "romans",
+    "int",
+    "conversion"
+  ],
+  "author": "Thalissa Correa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thalissaj/roman-to-int/issues"
+  },
+  "homepage": "https://github.com/thalissaj/roman-to-int#readme",
+  "dependencies": {
+    "chai": "^4.1.2"
+  }
+}
