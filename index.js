@@ -3,12 +3,12 @@ const arabicList = [1000, 900, 500, 400, 100 ,90 , 50, 40, 10, 9, 5, 4, 1];
 
 exports.romanToInt = function (romanNum){
   var numberInt = 0;
-  for (var i = 0; i <= arabicList.length; i++){
-    while(romanNum.indexOf(romansList[i]) === 0){
-      numberInt += arabicList[i];
-      romanNum = romanNum.replace(romansList[i], '');
+  arabicList.forEach( (arabic, index) => {
+    while(romanNum.indexOf(romansList[index]) === 0){
+      numberInt += arabic;
+      romanNum = romanNum.replace(romansList[index], '');
     }
-  }
+  })
   return numberInt;
 }
 
